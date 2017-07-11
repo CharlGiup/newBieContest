@@ -1,0 +1,15 @@
+{
+    "name": "werewolf/nbc"
+    , "description": "Using zttp for nbc"
+    , "type": "zttp"
+    , "minimum-stability": "dev"
+    , "require": {
+        "kitetail/zttp": "^0.1.0"
+        , "php": ">=5.5.0"
+    }
+    , "autoload": {
+        "psr-0": {
+            "src": "vendor/kitetail/zttp"
+        }
+    }
+}
